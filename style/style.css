@@ -65,7 +65,8 @@ body {
     width: 540px;
     margin-top: 37px;
     margin-left: 33px;
-    font-family: var(--fonte-principal)
+    font-family: var(--fonte-principal);
+    gap: 39px;
 }
 
 .container__titulo {
@@ -81,10 +82,56 @@ body {
     color: #FF204E;
 }
 
+.container__botao {
+
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    width: 216px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    align-items: flex-start;
+
+    border-radius: 36.5px;
+}
+
 .container__paragrafo {
 
     color: white;
     font-size: 16px;
     font-family: var(--fonte-principal);
     font-weight: 500;
+}
+
+
+/* SEGUNDA CAIXA - VERMELHA */
+
+
+.secundaria {
+
+    margin: 0 16px;
+    background-color: #A0153E;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.secundaria__divisao {
+    display: flex;
+    
+}
+
+.secundaria__titulo {
+
+    font-size: 64px;
+    margin: 5px 104px 46px 30px;
+    color: white;
+    font-weight: 600;
+    width: 1274px;
+    font-family: var(--fonte-principal);
 }
